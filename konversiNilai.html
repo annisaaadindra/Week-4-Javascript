@@ -1,0 +1,34 @@
+<html> 
+	<head> 
+
+	</head> 
+	
+	<body> 
+		<script language="JavaScript" type="text/javascript"> 
+			var x = prompt("Masukkan nilai angka: ");
+			document.write("Nilai akhir Anda adalah " + konversiNilai(x));
+			
+			function konversiNilai(angka)
+			{
+				var nilAkhir;
+				if(angka >= 80 && angka <= 100)
+					{ nilAkhir = "A";}
+
+				else if (angka < 80 && angka >= 70)
+					{ nilAkhir = "B";} 
+
+				else if (angka < 70 && angka >= 60)
+					{ nilAkhir = "C";} 
+
+				else if (angka < 60 && angka >= 50)
+					{ nilAkhir = "D";}
+
+				else
+					{nilAkhir = "E"; }
+
+				return nilAkhir;
+			}			
+
+		</script> 
+	</body> 
+</html> 
